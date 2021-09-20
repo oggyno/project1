@@ -13,12 +13,22 @@
   font-size: 18px;
 }
 
-.merchant {
+.merchant1 {
   display: flex;
   justify-content: space-between;
   margin: 0 18%;
 }
 
-.merchant img {
+.merchant1 img {
+  width: 150px;
+}
+
+.merchant2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 18%;
+}
+
+.merchant2 img {
   width: 150px;
 }
