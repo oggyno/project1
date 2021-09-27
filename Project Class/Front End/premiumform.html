@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CASI || Premium</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a href="index.html" class="navbar-brand"
+        ><img src="images/CASI.png" alt="CASI-logos" width="80px"
+      /></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav" style="margin-left: 10%">
+          <li class="nav-item active">
+            <a href="fnp.html" class="nav-link"
+              ><i data-feather="credit-card"></i>&nbsp; Fitur dan Produk</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav" style="margin-left: 10%">
+          <li class="nav-item active">
+            <a href="promo.html" class="nav-link"
+              ><i data-feather="gift"></i>&nbsp; Promo</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav" style="margin-left: 10%">
+          <li class="nav-item active">
+            <a href="profile.html" class="nav-link"
+              ><i data-feather="user"></i>&nbsp; Profile</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav" style="margin-left: 10%">
+          <li class="nav-item active">
+            <a href="faq.html" class="nav-link"
+              ><i data-feather="help-circle"></i>&nbsp; FAQ</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              ><small>sudah punya akun?<i data-feather="log-in"></i></small
+            ></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a href="register.html" class="dropdown-item">Register</a>
+              <a href="signin.html" class="dropdown-item">Sign-in</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br /><br /><br /><br /><br /><br />
+    <div class="premiumregis">
+      <h1 style="text-align: center">Premium Registration</h1>
+      <p style="text-align: center">
+        Segeralah bergabung memnjadi member premium untuk menikmati fitur -
+        fitur lain-nya
+      </p>
+      <form class="needs-validation" novalidate>
+        <div class="form">
+          <div class="form">
+            <label for="validationNIK">NIK</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationNIK"
+              placeholder="31710XXXXXXXXXXX"
+              aria-valuemin="16"
+              required
+            />
+            <div class="valid-feedback">Benar!</div>
+            <div class="invalid-feedback">Tolong diisi dengan benar!</div>
+            <br />
+          </div>
+
+          <div class="form">
+            <label for="selfie">Selfie with your identification card</label
+            ><br />
+            <input
+              type="file"
+              class="form-control"
+              id="validationSelfie"
+              name="selfie"
+              required
+            />
+            <label for="selfie"
+              >(Limit file size is 5mb, file can be either .jpg or .png)</label
+            >
+            <div class="invalid-feedback">Ada kesalahan.</div>
+          </div>
+          <br />
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="invalidCheck"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+            <br />
+          </div>
+          <br />
+        </div>
+        <div style="text-align: right">
+          <a class="btn btn-primary" href="premium.html" role="button">Back</a>
+          <button class="btn btn-primary" href="#" role="button" type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <br /><br />
+    <footer>
+      <div class="footer-bottom bg-secondary" style="padding-top: 10px">
+        <div class="container">
+          <div class="row justify-content-xl-around">
+            <div class="col-lg-2 col-md-5">
+              <div class="header">
+                <h5>CUSTOMER CARE</h5>
+              </div>
+              <br />
+              <ul class="footer-nav nav flex-column">
+                <li class="nav-item"><a href="faq.html">FAQ </a></li>
+                <li class="nav-item">
+                  <a href="fnp.html">Fitur dan Produk </a>
+                </li>
+                <li class="nav-item"><a href="promo.html">Promo </a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-5">
+              <div class="header">
+                <h5>ABOUT US</h5>
+              </div>
+              <br />
+              <ul class="footer-nav nav flex-column">
+                <li class="nav-item"><a href="">Career</a></li>
+                <li class="nav-item"><a href="">Privacy & Policy</a></li>
+                <li class="nav-item"><a href="">Terms</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-5">
+              <div class="header">
+                <h5>MY ACCOUNT</h5>
+              </div>
+              <br />
+              <ul class="footer-nav nav flex-column">
+                <li class="nav-item"><a href="register.html">Register</a></li>
+                <li class="nav-item"><a href="signin.html">Sign In</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-5">
+              <div class="header">
+                <h5>CONTACT US</h5>
+              </div>
+              <br />
+              <ul class="footer-nav nav flex-column">
+                <li class="nav-item">
+                  <p>
+                    <a href=""><i data-feather="instagram"></i></a> : casi_id
+                  </p>
+                </li>
+                <li class="nav-item">
+                  <p>
+                    <a href=""><i data-feather="twitter"></i></a> : casi_id
+                  </p>
+                </li>
+                <li class="nav-item">
+                  <p>
+                    <a href=""><i data-feather="mail"></i></a> : casi@gmail.com
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+      <div class="bg-secondary">
+        <br />
+        <div class="text-center" style="color: white">
+          &copy; copyright - 2021 CASI
+        </div>
+        <br />
+      </div>
+    </footer>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName("needs-validation");
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(
+              forms,
+              function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              }
+            );
+          },
+          false
+        );
+      })();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

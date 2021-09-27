@@ -5,79 +5,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CASI || FAQ</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="style.css" />
+    <link 
       rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="fnp.html">Fitur dan Produk</a></li>
-        <li><a href="promo.html">Promo</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li>
-          <a href="login.html"><small>sudah punya akun?</small></a>
-        </li>
-      </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a href="index.html" class="navbar-brand"
+        ><img src="images/CASI.png" alt="CASI-logos" width="80px"
+      /></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav" style="margin-left: 10%;">
+              <li class="nav-item active">
+                <a href="fnp.html" class="nav-link"
+                  ><i data-feather="credit-card"></i>&nbsp; Fitur dan Produk</a
+                >
+              </li>   
+          </ul>
+          <ul class="navbar-nav" style="margin-left: 10%;">
+            <li class="nav-item active" >
+              <a href="promo.html" class="nav-link"
+                ><i data-feather="gift"></i>&nbsp; Promo</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav" style="margin-left: 10%;">
+            <li class="nav-item active" >
+              <a href="profile.html" class="nav-link"
+                ><i data-feather="user"></i>&nbsp; Profile</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav" style="margin-left: 10%;">
+            <li class="nav-item active" >
+              <a href="faq.html" class="nav-link"
+                ><i data-feather="help-circle"></i>&nbsp; FAQ</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><small>sudah punya akun?<i data-feather="log-in"></i></small
+              ></a>
+  
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a href="register.html" class="dropdown-item">Register</a>
+                <a href="signin.html" class="dropdown-item">Sign-in</a>
+              </div>
+            </li>
+          </ul>
+        </div>
     </nav>
     <div>
       <ul>
-        <li><b>FAQ</b></li>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus cum
-          aspernatur voluptate iure quidem? Exercitationem eveniet aut doloribus
-          facilis. Iste iusto ipsa vero atque nisi rerum suscipit soluta
-          veritatis explicabo.
+        <li><b>Apa itu CASI ?</b></li>
+        <p style="font-style:italic;">
+           CASI merupakan website yang memudahkan para pengguna dalam hal transaksi di semua merchant bertanda CASI 
         </p>
-        <li><b>Account</b></li>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-          illo laudantium molestiae quis necessitatibus porro minus error
-          nostrum, optio libero tempora in sint debitis, ut a dolorem
-          dignissimos explicabo aperiam?
+        <li><b>Apakah Saya bisa Upgrade ke level premium ?</b></li>
+        <p style="font-style: italic;">
+          Ya bisa , untuk lebih detailnya bisa dilihat di laman premium
         </p>
-        <li><b>I Can't Login</b></li>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          ipsum, repudiandae soluta numquam inventore ipsa obcaecati, iste
-          nulla, aperiam odit nesciunt fugiat? Veniam quos, eum neque assumenda
-          rerum illo quas?
+        <li><b>Bagaimana cara melakukan Top up saldo CASI ?</b></li>
+        <p style="font-style: italic;">
+          Isi ulang (Top Up) saldo CASI dapat melalui Transfer Bank yang bekerja sama dengan CASI.
         </p>
-        <li><b>How to Transfer in CASI</b></li>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad
-          voluptatem modi ducimus dolorem possimus suscipit assumenda maxime
-          animi, earum quisquam dolorum, quod, veritatis quidem? Porro nulla
-          similique saepe ad.
+        <li><b>Apa yang terjadi apabila akun/handphone saya hilang ?</b></li>
+        <p style="font-style: italic;">
+          Anda bisa menghubungi call center CASI di 1 200 343 (Senin-Minggu, 07.00-22.00 WIB) atau email cs@CASI.id Tim kami akan segera membantu anda.
         </p>
+        <li><b>Penawaran menarik apa yang saya bisa didapatkan ?</b></li>
+        <p style="font-style: italic;">
+          Anda bisa mendapatkan berbagai penawaran menarik dari merchant - merchant kami dan anda bisa mendapatkan penawaran menarik langsung dari website kami. 
+        </p>
+        <li><b>Apakah saya bisa transfer saldo CASI ke pengguna lainnya</b></li>
+        <p style="font-style: italic;">
+            Ya,bisa.
+        </p>
+        <li><b>apakah saya bisa mengaksesnya di aplikasi mobile ?</b></li>
+        <P style="font-style: italic;">
+            Tidak Bisa.
+        </P>
       </ul>
+      <br>
     </div>
     <footer>
-      <h3>About us</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam
-        sed libero eos quo numquam nam deserunt modi. Nobis ea porro repellendus
-        illum minus optio cum enim ipsam aliquid veniam.
-      </p>
-      <h3>FAQ</h3>
-      <a href="faq.html">Klik disini untuk melihat detail FAQ </a>
-      <h3>Privacy and Policy</h3>
-      <h3>Help Center</h3>
-      <h3>Contact Us</h3>
-      <p>Silahkan hubungi kami melalui layanan berikut :</p>
-      <ol>
-        <li>Email : casi@gmail.com</li>
-        <li>Instagram : @casi_id</li>
-      </ol>
-    </footer>
+      <div class="footer-bottom bg-secondary" style="padding-top: 10px;">
+          <div class="container ">
+              <div class="row justify-content-xl-around">
+                  <div class="col-lg-2 col-md-5">
+                      <div class="header">
+                          <h5>CUSTOMER CARE</h5>
+                      </div>
+                      <br>
+                      <ul class="footer-nav nav flex-column">
+                          <li class="nav-item"><a href='faq.html'>FAQ </a></li>
+                          <li class="nav-item"><a href='fnp.html'>Fitur dan Produk </a></li>
+                          <li class="nav-item"><a href='promo.html'>Promo </a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col-lg-2 col-md-5">
+                      <div class="header">
+                          <h5>ABOUT US</h5>
+                      </div>
+                      <br>
+                      <ul class="footer-nav nav flex-column">
+                          <li class="nav-item"><a href=''>Career</a></li>
+                          <li class="nav-item"><a href=''>Privacy & Policy</a></li>
+                          <li class="nav-item"><a href=''>Terms</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-5">
+                      <div class="header">
+                          <h5>MY ACCOUNT</h5>
+                      </div>
+                      <br>
+                      <ul class="footer-nav nav flex-column">
+                          <li class="nav-item"><a href='register.html'>Register</a></li>
+                          <li class="nav-item"><a href='signin.html'>Sign In</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-5">
+                      <div class="header">
+                          <h5>CONTACT US</h5>
+                      </div>
+                      <br>
+                      <ul class="footer-nav nav flex-column">
+                          <li class="nav-item">
+                              <p><a href=""><i data-feather="instagram"></i></a> : casi_id</p>
+                          </li>
+                          <li class="nav-item">
+                              <p><a href=""><i data-feather="twitter"></i></a> : casi_id</p>
+                          </li>
+                          <li class="nav-item">
+                              <p><a href=""><i data-feather="mail"></i></a> : casi@gmail.com</p>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <br>
+      </div>
+      </div>
+      <div class="bg-secondary">
+          <br>
+          <div class="text-center" style="color: white;">
+              &copy; copyright - 2021 CASI
+          </div>
+          <br>
+      </div>
+  </footer>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
